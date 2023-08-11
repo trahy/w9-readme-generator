@@ -12,7 +12,7 @@ inquirer
     {
         type: 'input',
         message: 'Enter a description',
-        name: 'desc',
+        name: 'description',
     },
     {
         type: 'input',

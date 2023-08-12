@@ -1,10 +1,28 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) { }
+function renderLicenseBadge(license) {
+  if (license === "Apache 2.0") {
+    const apache = `![Apache License](https://img.shields.io/badge/license-Apache-blue)](https://choosealicense.com/licenses/apache-2.0/)`;
+    return apache;
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-function renderLicenseLink(license) { }
+  } else if (license === "MIT") {
+    const mit = `![MIT License](https://img.shields.io/badge/license-MIT-green)](https://choosealicense.com/licenses/mit/)`;
+    return mit;
+
+  } else if (license === "GNU GPLv3") {
+    const mpl = `[![GNU General Public License](https://img.shields.io/badge/license-GNU_GPL-red)]https://choosealicense.com/licenses/gpl-3.0/`;
+    return mpl;
+  } else {
+    const noLicense = `No License`;
+    return noLicense;
+  }
+};
+
+// function that returns the license link
+// if no license, return empty string
+function renderLicenseLink(license) {
+
+};
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string

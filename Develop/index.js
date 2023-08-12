@@ -1,5 +1,6 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
+const generateMarkdown = require('./generateMarkdown');
 
 // array of questions for user input
 inquirer
@@ -58,7 +59,7 @@ inquirer
 
   ])
   .then((data) => {
-    const readmeContent = myReadme(data);
+    const readmeContent = generateMarkdown(data);
     fs.writeFile('./output/README.md', readmeContent, (err) =>
     err ? console.error(err) : console.log('The README file has been successfully created!')
     );

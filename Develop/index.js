@@ -27,7 +27,7 @@ inquirer
     },
     {
         type: 'input',
-        message: 'List any accreditations',
+        message: 'List any collaborators or references',
         name: 'credits',
     },
     {

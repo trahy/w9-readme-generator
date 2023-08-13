@@ -1,11 +1,11 @@
 
   
-  # title
+  # aslgkas
 
-  [![MIT License](https://img.shields.io/badge/license-MIT-green)](https://choosealicense.com/licenses/mit/)
+  [![GNU General Public License](https://img.shields.io/badge/license-GNU_GPL-red)](https://choosealicense.com/licenses/gpl-3.0/)
 
   ## Description
-  desc
+  asgas
 
   ## Table of Contents
 
@@ -18,25 +18,25 @@
   - [License](#license)
 
   ## Installation
-  install
+  asg
 
   ## Usage
-  usage
+  as
 
   ## Credits
-  n/a
+  as
 
   ## Contributing
-  n/a
+  asg
 
   ## Tests
-  n/a
+  asg
 
   ## Questions
 
-  - Checkout my [GitHub profile](https://github.com/aslkd)
+ Checkout my [GitHub profile](https://github.com/asg)
 
-  - For any additional questions or feed back, please [send an email](mailto:aslkg@lkagjlka). 
+ For additional questions or feedback, please [send an email](mailto:asgah). 
 
   ## License
   undefined
